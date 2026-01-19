@@ -10,3 +10,4 @@ vim.opt.autoindent = true
 vim.opt.mouse = "a"
 vim.g.mapleader = ","
 vim.opt.termguicolors = true
+vim.g.autoformat = false
