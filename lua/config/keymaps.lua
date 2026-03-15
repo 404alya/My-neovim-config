@@ -3,6 +3,21 @@
 -- Add any additional keymaps here
 --
 --
-
+--
 vim.keymap.set("n", "<leader>d", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
+
+local add_undo_point = {'-', '<CR>', ':', '<space>', ';', '[', ']', '{', '}', '=', '(', ')', '|', '~'}
+
+for k, v in pairs(add_undo_point) do
+  vim.keymap.set('i', v, v..'<c-g>u')
+end
+
+
+
+
+
+
+
+
+
 

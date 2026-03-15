@@ -4,6 +4,7 @@
   "blink.cmp": { "branch": "main", "commit": "b19413d214068f316c78978b08264ed1c41830ec" },
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
   "catppuccin": { "branch": "main", "commit": "ce4a8e0d5267e67056f9f4dcf6cb1d0933c8ca00" },
+  "clangd_extensions.nvim": { "branch": "main", "commit": "6fd7f12df71a04dd9ec398fc63aaa23fbe9f525f" },
   "cmake-tools.nvim": { "branch": "master", "commit": "f34418d7aa57c730ee91b3e45e7612978506fcf3" },
   "conform.nvim": { "branch": "master", "commit": "4993e07fac6679d0a5005aa7499e0bad2bd39f19" },
   "cutlass.nvim": { "branch": "main", "commit": "d01b5c1943050fcda8edf5c89d4419c41a65890e" },
@@ -39,5 +40,6 @@
   "tokyonight.nvim": { "branch": "main", "commit": "5da1b76e64daf4c5d410f06bcb6b9cb640da7dfd" },
   "trouble.nvim": { "branch": "main", "commit": "bd67efe408d4816e25e8491cc5ad4088e708a69a" },
   "ts-comments.nvim": { "branch": "main", "commit": "123a9fb12e7229342f807ec9e6de478b1102b041" },
+  "vim-pencil": { "branch": "master", "commit": "6d70438a8886eaf933c38a7a43a61adb0a7815ed" },
   "which-key.nvim": { "branch": "main", "commit": "3aab2147e74890957785941f0c1ad87d0a44c15a" }
 }

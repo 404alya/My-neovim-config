@@ -35,6 +35,7 @@ return {
       set({ "n", "x" }, "<leader>S", function()
         mc.matchSkipCursor(-1)
       end)
+      
 
       -- Add and remove cursors with control + left click.
       set("n", "<c-leftmouse>", mc.handleMouse)
