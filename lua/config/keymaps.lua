@@ -4,7 +4,7 @@
 --
 --
 --
-vim.keymap.set("n", "<leader>d", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
+vim.keymap.set("n", "<leader>dg", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
 
 local add_undo_point = {'-', '<CR>', ':', '<space>', ';', '[', ']', '{', '}', '=', '(', ')', '|', '~'}
 
