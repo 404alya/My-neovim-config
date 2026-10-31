@@ -10,9 +10,6 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.expandtab = true
 vim.opt.mouse = "a"
--- Copy a mouse selection as soon as the button is released (like tmux), keeping it highlighted.
-vim.keymap.set("x", "<LeftRelease>", "<LeftRelease>ygv", { silent = true })
-
 -- LazyVim turns clipboard sync off over SSH; keep it on and send yanks to the
 -- local machine with OSC 52. OSC 52 paste would query the terminal and can hang,
 -- so pasting returns the last yank instead.
